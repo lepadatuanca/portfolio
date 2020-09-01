@@ -1,0 +1,132 @@
+body{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#parent-container {
+    width: 100%;
+/*     
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: flex-end; */
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1d1d1; 
+    background-image: url("file:///H:/Dropbox/Softelligence/front-end/portfolio/assets/images/palm-trees6.jpg"); 
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
+#child-container {
+    background-color: #7d5a5a;
+    width: 60%;
+
+    margin-bottom: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);;
+}
+#section-three {
+    align-self: flex-end;
+    text-align: center;
+    color: #f1d1d1;
+}
+#title {
+    background-color: #f1d1d1;
+    color: #7d5a5a;
+    font-size: 110%;
+    padding: 15px 0;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    text-align: center;
+}
+.form-content {
+    padding: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    color: #f1d1d1;
+    font-size: 105%;
+    padding-bottom: 10px;
+}
+.pair {
+    padding: 7px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+label {
+    padding-bottom: 5px;
+    font-size: 90%;
+}
+
+input,select,textarea, button {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 6px 20px;
+}
+
+.radio-answer {
+    display: flex;
+    align-items: flex-start;
+}
+input[type="radio"] {
+    width: 5%;
+} 
+fieldset {
+    padding-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"],button {
+    padding: 20px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    margin: 20px;
+}
+
+input[type="submit"]:hover,button:hover {
+    background-color: #ddd;;
+}
+
+fieldset {
+    display: none;
+}
+input[type="submit"]{
+    display: none;
+}
+
+#section1 {
+    display: block;
+}
+#b1 {
+    display: block;
+    float: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warning {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+.label-required::after {
+    content: "*";
+    color: red;
+    font-weight: bold;
+}

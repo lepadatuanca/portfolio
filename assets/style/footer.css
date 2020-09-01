@@ -1,0 +1,15 @@
+#section-three {
+    background-color: #7d5a5a;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* position: absolute; */
+    height: 40px;
+}
+.social {
+    padding: 0 5px;
+}
+.copyright {
+    padding: 2px;
+    color: #f1d1d1;
+}

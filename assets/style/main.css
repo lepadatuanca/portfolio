@@ -1,0 +1,142 @@
+body{
+    
+    text-align: center;
+    color: #f1d1d1;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1d1d1;
+    background-image: url("file:///H:/Dropbox/Softelligence/front-end/portfolio/assets/images/palm-trees4.jpg"); 
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top 100vh left;
+    
+}
+
+hr {
+    width: 30px;
+    border: 0;
+    border-top: dotted 8px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 96px;
+    padding: 80px;
+}
+h2 {
+    font-size: 24px;
+    padding: 24px;
+}
+h3 {
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+h4 {
+    font-size: 24px;
+    padding-bottom: 2%;
+}
+
+button {
+    background-color: #7d5a5a;
+    border: none;
+    padding: 15px 32px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+button > a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+table {
+    margin: 0 10%;
+    width: 80%;
+}
+table, th, td {
+    border: 1px solid rgb(226, 225, 225);
+}
+th{
+    background-color: #7d5a5a;
+    color:#f1d1d1;
+    padding: 10px 0;
+    font-size: 25px;
+}
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+td {
+    padding: 5px 0;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+#pro {
+    text-decoration: underline;
+}
+#intro-image {
+    width: 22%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#cloud1 {
+    top: 20%;
+    left: 10%;
+}
+#cloud2 {
+    top: 70%;
+    right: 10%;
+}
+.cloud {
+    width: 15%;
+    opacity: 0.5;
+}
+#profile-image {
+    width: 200px;
+    padding: 25px 0;
+}
+.skill-image {
+    width: 20%;
+    height: 20%;
+}
+#section-one {
+    background-color: #7d5a5a;
+    height: 100vh;
+}
+#section-two {
+    background-color: white;
+    color: #7d5a5a;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.details {
+    width: 80%;
+    align-self: center;
+}
+.subsection {
+    padding: 20px 30px;
+}
+.skill {
+    padding-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill:nth-of-type(even) > .content > .skill-image{
+    order: 2;
+}
+
+
+.absolute {
+    position: absolute;
+}
+
+
+
+
