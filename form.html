@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anca Lepădatu</title>
+    <link rel="stylesheet" type="text/css" href="assets/style/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/form.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/media-queries.css">
+    <link rel="icon" href="assets/images/woman.png">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar" class="above">
+        <a href="index.html"><img src="assets/images/flower.png" id="logo" class="relative"></a>
+        <a href="index.html" class="above right-nav">Home</a>
+        <a href="img.html" class="above right-nav">Image Gallery</a>
+        <a href="form.html" class="above right-nav">Form</a>
+    </div>
+    
+    <div id="parent-container">
+        <div id="child-container">
+            <h1 id="title">Formular inregistrare</h1>
+            <div class="form-content">
+                <form>
+                    <fieldset id = "section1">
+                        <legend>Pasul 1: Detalii utilizator</legend>
+                        <div class="pair">
+                            <label for="img">Importa imagine: </label>
+                            <input type="file" id="img">
+                        </div>
+                        <div class="pair">
+                            <label for="nume" class="label-required">Nume: </label>
+                            <input type="text" id="nume" class="required" placeholder="Introdu numele">
+                        </div>
+                        <div class="pair">
+                            <label for="prenume" class="label-required">Prenume: </label>
+                            <input type="text" id="prenume" class="required" placeholder="Introdu prenumele">
+                        </div>
+                        <div class="pair">
+                            <label class="label-required">Sex: </label>
+                            <div class="radio-answer">
+                                <input type="radio" id="male" value="male" name="gender" class="required">
+                                <label for="male">Masculin</label>
+                            </div>
+                            <div class="radio-answer">
+                                <input type="radio" id="female" value="female" name="gender">
+                                <label for="female">Feminin</label>
+                            </div>
+                        </div>
+                        <div class="pair">
+                            <label for="data-n" class="label-required">Data nasterii: </label>
+                            <input type="date" id="data-n" class="required">
+                        </div>
+                        <div class="pair">
+                            <label for="cnp" class="label-required">CNP: </label>
+                            <input type="text" id="cnp" class="required">
+                        </div>
+                        <div class="warning" id = "w1"></div>
+                        <button id="b1" type="button">Treci la pasul 2</button>
+                    </fieldset>
+                    
+                    <fieldset id = "section2">
+                        <legend>Pasul 2: Detalii contact</legend>
+                        <div class="pair">
+                            <label for="tel" class="label-required">Numar telefon: </label>
+                            <input type="tel" id="tel" class="required">
+                        </div>
+                        <div class="pair">
+                            <label for="email" class="label-required">Email: </label>
+                            <input type="email" id="email"  class="required" placeholder="Introdu adresa de mail">
+                        </div>
+                        <div class="pair">
+                            <label for="judet" class="label-required">Judet: </label>
+                            <select id="judet" name="judet" class="required">
+                                <option value="-" disabled selected>-</option>
+                                <option value="Ilfov">Ilfov</option>
+                                <option value="Vrancea">Vrancea</option>
+                                <option value="Prahova">Prahova</option>
+                                <option value="Constanta">Constanta</option>
+                              </select>
+                        </div>
+                        <div class="pair">
+                            <label for="oras" class="label-required">Oras: </label>
+                            <select id="oras" name="oras" class="required">
+                                <option value="-" disabled selected>-</option>
+                                <option value="Bucuresti">Bucuresti</option>
+                                <option value="Focsani">Focsani</option>
+                                <option value="Ploiesti">Ploiesti</option>
+                                <option value="Constanta">Constanta</option>
+                              </select>
+                        </div>
+                        <div class="pair">
+                            <label for="adresa">Adresa: </label>
+                            <textarea rows="5" id="adresa"></textarea>
+                        </div>
+                        <div class="pair">
+                            <label for="cod-postal">Cod postal: </label>
+                            <input type="text" maxlength="6" id="cod-postal">
+                        </div>
+                        <div class="warning" id = "w2"></div>
+                        <div class="buttons">
+                            <button class="back" id ="back2" type="button">Inapoi</button>
+                            <button id = "b2" type="button">Treci la pasul 3</button>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset id = "section3">
+                        <legend>Pasul 3: Credentiale</legend>
+                        <div class="pair">
+                            <label for="parola" class="label-required">Parola: </label>
+                            <input type="password" id="parola" class="required">
+                        </div>
+                        <div class="pair">
+                            <label for="confirm-parola" class="label-required">Confirmati parola: </label>
+                            <input type="password" id="confirm-parola" class="required">
+                        </div>
+                        <div class="pair">
+                            <div class="checkbox-answer">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">Doresc sa ma abonez la newsletter.</label>
+                            </div>
+                            <div class="checkbox-answer">
+                                <input type="checkbox" id="terms" name="terms" class="required">
+                                <label for="terms" class="label-required" title="Este obligatoriu sa acceptati termenii si conditiile.">Sunt de acord cu termenii si conditiile.</label>
+                            </div>
+                        </div>
+                        <div class="warning" id = "w3"></div>
+                        <div class="buttons">
+                            <button class="back" id = "back3" type="button">Inapoi</button>
+                            <button type = "button" id = "b3">Inregistrare</button>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+            </div>
+        </div>
+        <div id="section-three">
+            <a class="social" href="https://www.facebook.com/ank.lepadatu" target="_blank">Facebook</a>
+            <a class="social" href="https://www.linkedin.com/in/anca-lepadatu-90363b134/" target="_blank">LinkedIn</a>
+            <p class = "copyright">&copy;2020 Lepădatu Gabriela-Anca.</p>
+            <p class = "copyright">All rights reserved.</p>
+        </div>
+    </div>
+    <script src="form.js">
+
+    </script>
+</body>
