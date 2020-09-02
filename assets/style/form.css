@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #f1d1d1; 
-    background-image: url("/assets/images/palm-trees6.jpg"); 
+    background-image: url("assets/images/palm-trees6.jpg"); 
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
