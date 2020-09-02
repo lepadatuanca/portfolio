@@ -3,7 +3,7 @@ body{
     color: #f1d1d1;
     font-family: 'Raleway', sans-serif;
     background-color: #f1d1d1;
-    background-image: url("portfolio/assets/images/palm-trees.jpg"); 
+    background-image: url("/portfolio/assets/images/palm-trees.jpg"); 
     background-blend-mode: overlay;
 }
 
