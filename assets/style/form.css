@@ -60,7 +60,7 @@ legend {
     justify-content: space-between;
 }
 #disclaimer {
-    padding: 7px 0;
+    padding-bottom: 14px;
 } 
 label {
     padding-bottom: 5px;
