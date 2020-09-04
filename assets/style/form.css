@@ -5,10 +5,6 @@ body{
 
 #parent-container {
     width: 100%;
-/*     
-    box-sizing: border-box;
-    height: 100vh;
-    justify-content: flex-end; */
     height: 100%;
     padding-top: 100px;
     display: flex;
@@ -63,6 +59,9 @@ legend {
     flex-direction: column;
     justify-content: space-between;
 }
+#disclaimer {
+    padding: 7px 0;
+} 
 label {
     padding-bottom: 5px;
     font-size: 90%;
